@@ -222,7 +222,7 @@ function Home() {
                                 <div className="course-content">
                                     <h3><Link to="/oceanExport" >{t("Ocean Export")}</Link></h3>
                                     <p>{t("ABX Solutions provides a wide choice of services from Canada and the U.S. ports to any other port in the world. We have a strong network in Asia.")}</p>
-                                    <Link to="/oceanExport" className="default-btn" >read more</Link>
+                                    <Link to="/oceanExport" className="default-btn" >{t{"read More")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ function Home() {
                                 <div className="course-content">
                                     <h3><Link to="/oceanImport"  >{t("Ocean Import")}</Link></h3>
                                     <p>{t("Through ABX Solution’s network of agents and partners around the world, we can start the import process here by starting the export process there.")} </p>
-                                    <Link to="/oceanImport"  className="default-btn" >read more</Link>
+                                    <Link to="/oceanImport"  className="default-btn" >{t{"read More")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +254,7 @@ function Home() {
                                 <div className="course-content">
                                     <h3><Link to="/airExport">{t("Air Export")}</Link></h3>
                                     <p>{t("ABX Solutions can move your air freight from anywhere in Canada and US, with our partners around the world, can handle all of your export needs.")}</p>
-                                    <Link to="/airExport" className="default-btn">{t{"read more")}</Link>
+                                    <Link to="/airExport" className="default-btn">{t{"read More")}</Link>
                                 </div>
                             </div>
                         </div>
