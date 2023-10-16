@@ -79,7 +79,6 @@ function Home() {
                         <img src="assets/img/UPS/breadcrumb.jpg" className="d-block w-100 img-fluid" alt="..." />
                         <div className="carousel-caption d-md-block">
                             <h5>{t("ABX Solutions Are Here For You")}</h5>
-                            <p>{t("Some representative placeholder content for the first slide.")}</p>
 
                             <button onClick={(e)=>{Navigate("/Signin")}} className='btn-button'>
                                 Login
@@ -255,7 +254,7 @@ function Home() {
                                 <div className="course-content">
                                     <h3><Link to="/airExport">{t("Air Export")}</Link></h3>
                                     <p>{t("ABX Solutions can move your air freight from anywhere in Canada and US, with our partners around the world, can handle all of your export needs.")}</p>
-                                    <Link to="/airExport" className="default-btn">read more</Link>
+                                    <Link to="/airExport" className="default-btn">{t{"read more")}</Link>
                                 </div>
                             </div>
                         </div>
