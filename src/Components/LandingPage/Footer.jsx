@@ -46,7 +46,7 @@ function Footer() {
 
                         <div className="col-lg-3 col-md-6 pt-4 pt-lg-0">
                             <div className="single-widget">
-                                <h3>Our Services</h3>
+                                <h3>{t("Our Services")}</h3>
                                 <ul>
                                     <li><Link to="/oceanImport">{t("Ocean Import")}</Link></li>
                                     <li><Link to="/oceanExport">{t("Ocean Export")}</Link></li>
